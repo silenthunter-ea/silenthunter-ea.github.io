@@ -325,7 +325,7 @@ layout: default
 
 <!--services start-->
 
-<section id="services" class="pos-r bg-contain bg-pos-rb" data-bg-img="images/bg/07.png">
+<section id="services" class="pos-r bg-contain bg-pos-rb" data-bg-img="{{ site.baseurl }}/assets/images/bg/07.png">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-4 col-md-12">
@@ -512,7 +512,7 @@ layout: default
 
 <!--blog start-->
 
-<section id="blog" class="pos-r bg-contain bg-pos-lb" data-bg-img="images/bg/06.png">
+<section id="blog" class="pos-r bg-contain bg-pos-lb" data-bg-img="{{ site.baseurl }}/assets/images/bg/06.png">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-8 col-md-12">
