@@ -31,7 +31,7 @@ layout: default
           <!-- Navbar -->
           <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand logo" href="index.html">
-              <img id="logo-img" class="img-center" src="{{ site.baseurl }}/assets/images/logo.png" alt="">
+              <!-- <img id="logo-img" class="img-center" src="{{ site.baseurl }}/assets/images/logo.png" alt=""> --> <h5>Silenthunter</h5>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
               <span></span>
