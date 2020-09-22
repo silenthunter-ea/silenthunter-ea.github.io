@@ -3,8 +3,6 @@ layout: default
 # title: "Happy Jekylling!"
 ---
 
-## You're ready to go!
-
 <!-- page wrapper start -->
 
 <div class="page-wrapper">
