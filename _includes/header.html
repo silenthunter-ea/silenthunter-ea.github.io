@@ -16,7 +16,8 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto mr-auto">
-                  <!-- Home -->
+                {% if page.nav-index == 'true' %}
+                    <!-- Home -->
                   <li class="nav-item"> <a class="nav-link active" href="#home">Home</a></li>
                   <li class="nav-item"> <a class="nav-link" href="#about">About</a>
                   </li>
@@ -26,6 +27,9 @@
                   </li>
                   <li class="nav-item"> <a class="nav-link" href="#blog">Blogs</a>
                   </li>
+                {% else %}
+                <li class="nav-item"> <a class="nav-link active" href="{{site.url}}">Home</a></li>
+                {% endif %}
                 </ul>
               </div>
               <div class="right-nav align-items-center d-flex justify-content-end list-inline">
