@@ -482,7 +482,7 @@ function countdown() {
     var $this = $(this),
       finalDate = $(this).data('countdown');
     $this.countdown(finalDate, function (event) {
-      $(this).html(event.strftime('<li><span>%-D</span><p>Days</p></li>' + '<li><span>%-H</span><p>Hours</p></li>' + '<li><span>%-M</span><p>Minutes</p></li>' + '<li><span>%S</span><p>Seconds</p></li>'));
+      $(this).html(event.strftime('<li><span>%-D</span><p>Hari</p></li>' + '<li><span>%-H</span><p>Jam</p></li>' + '<li><span>%-M</span><p>Menit</p></li>' + '<li><span>%S</span><p>Detik</p></li>'));
     });
   });
 };
